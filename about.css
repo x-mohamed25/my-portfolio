@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* BODY BACKGROUND */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: url("D:/document/SEMSTER6/WEB/Prtofolio WEB/abstract-modern-design-black-background-with-luxury-golden-elements-illustration-vector.jpg") center/cover no-repeat;
+
+    color: white;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pageLoad 1.2s ease forwards;
+}
+
+@keyframes pageLoad {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* NAVBAR */
+.navbar {
+    width: fit-content;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    background: linear-gradient(to right,
+
+            #ffffff,
+            gold);
+
+    backdrop-filter: blur(10px);
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar li {
+    cursor: pointer;
+    color: #c9d1d9;
+    transition: 0.3s;
+}
+
+.navbar li:hover {
+    color: rgb(7, 7, 5);
+    transform: scale(1.3);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(45deg, #D4AF37, #F1C40F);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+
+}
+
+
+
+h3 {
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
+}
+
+h3:hover {
+    background: linear-gradient(45deg, #feb47b, #ff7e5f);
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+    transform: scale(1.01);
+}
+
+
+#counteer {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+img {
+    border-radius: 50px;
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    right: 150px;
+}
+
+
+p {
+    max-width: 50vw;
+    /* نصف عرض الشاشة بالضبط */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20 px;
+    padding: 30px;
+    background: linear-gradient(45deg, #FF69B4, #FFD700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p:hover {
+    background: linear-gradient(45deg, #FFD700, #FF69B4);
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    transform: scale(1.01);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
