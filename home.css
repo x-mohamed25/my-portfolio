@@ -5,19 +5,19 @@
     font-family: Arial, sans-serif;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
 
-/* BODY BACKGROUND */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
-    background: url("D:/document/SEMSTER6/WEB/Prtofolio WEB/abstract-modern-design-black-background-with-luxury-golden-elements-illustration-vector.jpg") center/cover no-repeat;
-
+    background: url("./Icon/Iconbg.jpg") center/cover no-repeat;
+  
     color: white;
 
     opacity: 0;
@@ -39,12 +39,10 @@ body {
     padding: 10px 20px;
     border-radius: 30px;
 
-    background: linear-gradient(
-        to right,
-       
-        #ffffff,
-        gold
-    );
+    background: linear-gradient(to right,
+
+            #ffffff,
+            gold);
 
     backdrop-filter: blur(10px);
 }
@@ -135,7 +133,7 @@ button {
     display: flex;
     gap: 15px;
 
-    background: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.08);
     padding: 10px 15px;
     border-radius: 20px;
     backdrop-filter: blur(10px);

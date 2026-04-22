@@ -11,14 +11,12 @@ body {
     overflow-x: hidden;
 }
 
-/* BODY BACKGROUND */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
-    background: url("D:/document/SEMSTER6/WEB/Prtofolio WEB/abstract-modern-design-black-background-with-luxury-golden-elements-illustration-vector.jpg") center/cover no-repeat;
-
+    background: url("./Icon/Iconbg.jpg") center/cover no-repeat;
     color: white;
 
     opacity: 0;

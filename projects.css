@@ -17,8 +17,8 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: url("D:/document/SEMSTER6/WEB/Prtofolio WEB/abstract-modern-design-black-background-with-luxury-golden-elements-illustration-vector.jpg") center/cover no-repeat;
-
+    background: url("./Icon/Iconbg.jpg") center/cover no-repeat;
+ 
     color: white;
 
     opacity: 0;
@@ -78,7 +78,7 @@ body {
     width: 250px;
     border-radius: 15px;
     overflow: hidden;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     transition: 0.3s;
     cursor: pointer;
